@@ -20,8 +20,8 @@ class ArticlePagingSource : PagingSource<Int, Article>() {
             data = range.map { number ->
                 Article(
                     id = number,
-                    title = "Article #: $number",
-                    description = "Here is the description for Article #: $number",
+                    title = "Article #$number",
+                    description = "Here is the description for Article #$number",
                     created = firstArticleCreatedTime.minusDays(number.toLong())
                 )
             },
