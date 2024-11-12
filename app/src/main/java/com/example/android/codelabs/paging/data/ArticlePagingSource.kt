@@ -40,7 +40,7 @@ class ArticlePagingSource : PagingSource<Int, Article>() {
         // then return its id - (state.config.pageSize / 2) as a buffer
         val anchorPosition = state.anchorPosition ?: return null
         val article = state.closestItemToPosition(anchorPosition) ?: return null
-        ensureValidKey(article.id - (state.config.pageSize / 2))
+        return ensureValidKey(article.id - (state.config.pageSize / 2))
     }
 
     /**
