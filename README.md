@@ -6,7 +6,7 @@
 ## Demo
 <img src="demo/app-screenshot.png" width="200"></img>
 <video width="200" height="425" controls>
-  <source src="demo/app-demo-video.mp4" type="video/mp4">
+  <source src="https://github.com/sorianog/codelabs-android-paging-basics/blob/main/demo/app-demo-video.mp4" type="video/mp4">
 </video>
 
 ## Build tools & versions used
